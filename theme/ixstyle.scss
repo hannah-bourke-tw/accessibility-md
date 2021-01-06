@@ -1,0 +1,118 @@
+@import '@impact-x/styles';
+
+body {
+  color: $ix-body-text-color;
+  font-family: $ix-font-family;
+  @include ix-type-body;
+}
+
+// The card mixin includes the card style
+article[ix-styles~='card'] {
+  @include ix-card;
+}
+
+// The tags mixin includes the tags style, currently used in the Cards functional pattern, but applicable in other situations too.
+[ix-styles~='tags'] {
+  @include ix-tags(var(--ixSpaceMarginXXS, $ix-space-margin-xxs));
+}
+
+h1 {
+  @include ix-type-heading-1;
+}
+
+h2 {
+  @include ix-type-heading-2;
+}
+
+h3 {
+  @include ix-type-heading-3;
+}
+
+h4 {
+  @include ix-type-heading-4;
+}
+
+h5 {
+  @include ix-type-heading-5;
+}
+
+h6 {
+  @include ix-type-heading-6;
+}
+
+p {
+  @include ix-type-paragraph;
+}
+
+.controls-arrow {
+  color: $ix-color-pink;
+}
+
+small {
+  @include ix-type-small;
+}
+
+// The following mixins will style your typography
+strong {
+  @include ix-type-weight-700;
+}
+
+// The link mixin includes styles for link and button styles when used with ix-styles="button".
+a {
+  @include ix-link;
+}
+
+// The nav mixin includes styles for the nav bar.
+nav {
+  @include ix-nav;
+}
+
+// The button mixin includes button styles and all it's variants, e.g. outline, s, m, l.
+button {
+  @include ix-button;
+}
+
+// The label mixin includes label styles for text input fields, text areas and select elements.
+label {
+  @include ix-label;
+}
+
+// The input mixin includes input styles for text and all it's variants. If the input has type `button`, `submit`, or `reset`, button styles will be applied.
+input {
+  @include ix-input;
+}
+
+// The checkbox mixin includes styles for checkbox.
+input[type="checkbox"] {
+  @include ix-checkbox;
+}
+
+// The radio-button mixin includes styles for radio button.
+input[type="radio"] {
+  @include ix-radio-button;
+}
+
+// The textarea mixin includes styles for textarea.
+textarea {
+  @include ix-textarea;
+}
+
+// The select mixin includes styles for select.
+select {
+  @include ix-select;
+}
+
+// The hr mixin includes styles for dividers.
+hr {
+  @include ix-hr;
+}
+
+// The code mixin will style your inline code snippets
+code {
+  @include ix-code;
+}
+
+// The pre mixin will style code blocks
+pre {
+  @include ix-pre;
+}

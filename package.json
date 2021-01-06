@@ -1,0 +1,15 @@
+{
+  "name": "reveal.md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "theme": "sass --load-path=node_modules --style=expanded  theme/ixstyle.scss theme/ixstyle.css",
+    "server": "reveal-md slides.md --theme theme/ixstyle.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@impact-x/styles": "^1.2.2"
+  }
+}

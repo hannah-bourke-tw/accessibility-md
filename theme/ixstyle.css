@@ -1,0 +1,3645 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500");
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+:export {
+  ixSpaceMarginXXS: 0.25rem;
+  ixSpaceMarginXS: 0.5rem;
+  ixSpaceMarginS: 0.75rem;
+  ixSpaceMarginM: 1rem;
+  ixSpaceMarginL: 1.5rem;
+  ixSpaceMarginXL: 2rem;
+  ixSpaceMarginHeading: 1.5em 0 0.5em;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixSpaceMarginXXS: 0.25rem;
+  ixSpaceMarginXS: 0.5rem;
+  ixSpaceMarginS: 0.75rem;
+  ixSpaceMarginM: 1rem;
+  ixSpaceMarginL: 1.5rem;
+  ixSpaceMarginXL: 2rem;
+  ixSpaceMarginHeading: 1.5em 0 0.5em;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+:export {
+  ixSpaceMarginXXS: 0.25rem;
+  ixSpaceMarginXS: 0.5rem;
+  ixSpaceMarginS: 0.75rem;
+  ixSpaceMarginM: 1rem;
+  ixSpaceMarginL: 1.5rem;
+  ixSpaceMarginXL: 2rem;
+  ixSpaceMarginHeading: 1.5em 0 0.5em;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+span[ix-styles=error-message] {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding-left: 1.5em;
+  font-size: 0.75rem;
+  color: #da221e;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14'><path fill='none' d='M0 0h24v24H0z'/><path d='M12.866 3l9.526 16.5a1 1 0 0 1-.866 1.5H2.474a1 1 0 0 1-.866-1.5L11.134 3a1 1 0 0 1 1.732 0zM11 16v2h2v-2h-2zm0-7v5h2V9h-2z' fill='rgba(218,34,30,1)'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 0.5%;
+  background-position-y: 50%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:export {
+  ixSpaceMarginXXS: 0.25rem;
+  ixSpaceMarginXS: 0.5rem;
+  ixSpaceMarginS: 0.75rem;
+  ixSpaceMarginM: 1rem;
+  ixSpaceMarginL: 1.5rem;
+  ixSpaceMarginXL: 2rem;
+  ixSpaceMarginHeading: 1.5em 0 0.5em;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+option {
+  padding: 0.5em 1.5em 0.5em 0.75em;
+  margin-left: 100px;
+  left: 100px;
+  transform: translate(100px);
+}
+
+:export {
+  ixSpaceMarginXXS: 0.25rem;
+  ixSpaceMarginXS: 0.5rem;
+  ixSpaceMarginS: 0.75rem;
+  ixSpaceMarginM: 1rem;
+  ixSpaceMarginL: 1.5rem;
+  ixSpaceMarginXL: 2rem;
+  ixSpaceMarginHeading: 1.5em 0 0.5em;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+span[ix-styles=error-message] {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding-left: 1.5em;
+  font-size: 0.75rem;
+  color: #da221e;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14'><path fill='none' d='M0 0h24v24H0z'/><path d='M12.866 3l9.526 16.5a1 1 0 0 1-.866 1.5H2.474a1 1 0 0 1-.866-1.5L11.134 3a1 1 0 0 1 1.732 0zM11 16v2h2v-2h-2zm0-7v5h2V9h-2z' fill='rgba(218,34,30,1)'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 0.5%;
+  background-position-y: 50%;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixSpacePaddingXXS: 0.25em;
+  ixSpacePaddingXS: 0.5em;
+  ixSpacePaddingS: 0.75em;
+  ixSpacePaddingM: 1em;
+  ixSpacePaddingL: 1.5em;
+  ixSpacePaddingXL: 2em;
+}
+
+:export {
+  ixColorPurple: #6a2569;
+  ixColorMagenta: #b11c54;
+  ixColorPink: #ef5ba1;
+  ixColorRed: #ee312d;
+  ixColorOrange: #f78f31;
+  ixColorYellow: #fff450;
+  ixColorAvocado: #b5b935;
+  ixColorGreenLight: #89b77f;
+  ixColorGreenDark: #11aa58;
+  ixColorBlueLight: #80c9d2;
+  ixColorBlueMid: #26bdcf;
+  ixColorBlueDark: #1a73ba;
+  ixColorCream: #fee0c9;
+  ixColorBeige: #f0ba95;
+  ixColorBrownLight: #9e785f;
+  ixColorBrownDark: #5e3e2a;
+  ixColorGrey: #808285;
+  ixColorBlack: #000000;
+  ixColorWhite: #ffffff;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorGrey90: #212223;
+  ixColorGrey80: #414343;
+  ixColorGrey70: #616364;
+  ixColorGrey60: #808285;
+  ixColorGrey50: #9a9c9e;
+  ixColorGrey40: #bdbec0;
+  ixColorGrey30: #e1e2e3;
+  ixColorGrey20: #e9e9ea;
+  ixColorGrey10: #f0f1f1;
+  ixColorGrey5: #f8f8f8;
+}
+
+:export {
+  ixColorRed90: #820502;
+  ixColorRed80: #a10c09;
+  ixColorRed70: #c11612;
+  ixColorRed60: #da221e;
+  ixColorRed50: #ee312d;
+  ixColorRed40: #f6514d;
+  ixColorRed30: #fd7370;
+  ixColorRed20: #ff9895;
+  ixColorRed10: #ffbebd;
+  ixColorRed5: #ffe7e7;
+  ixColorRedAA: #da221e;
+}
+
+:export {
+  ixColorOrange90: #693a00;
+  ixColorOrange80: #8e4f06;
+  ixColorOrange70: #b46410;
+  ixColorOrange60: #d9791f;
+  ixColorOrange50: #f78f31;
+  ixColorOrange40: #ffa246;
+  ixColorOrange30: #ffb662;
+  ixColorOrange20: #ffca8a;
+  ixColorOrange10: #ffdfb8;
+  ixColorOrange5: #fff3e6;
+  ixColorOrangeAA: #8e4f06;
+}
+
+:export {
+  ixColorYellow90: #807825;
+  ixColorYellow80: #958c2c;
+  ixColorYellow70: #aaa133;
+  ixColorYellow60: #bfb53a;
+  ixColorYellow50: #d5ca41;
+  ixColorYellow40: #eadf49;
+  ixColorYellow30: #fff450;
+  ixColorYellow20: #fff896;
+  ixColorYellow10: #fffbb9;
+  ixColorYellow5: #fffddc;
+  ixColorYellowAA: #807825;
+}
+
+:export {
+  ixColorPink90: #96155d;
+  ixColorPink80: #b8216f;
+  ixColorPink70: #d92c81;
+  ixColorPink60: #e44491;
+  ixColorPink50: #ef5ba1;
+  ixColorPink40: #fc7cb8;
+  ixColorPink30: #ffa4cf;
+  ixColorPink20: #ffbadb;
+  ixColorPink10: #ffd1e8;
+  ixColorPink5: #ffeaf5;
+  ixColorPinkAA: #d92c81;
+}
+
+:export {
+  ixColorMagenta90: #6d0028;
+  ixColorMagenta80: #870536;
+  ixColorMagenta70: #9e0f44;
+  ixColorMagenta60: #b11c54;
+  ixColorMagenta50: #c22d65;
+  ixColorMagenta40: #d14176;
+  ixColorMagenta30: #e9739a;
+  ixColorMagenta20: #f8acc1;
+  ixColorMagenta10: #fcc9d6;
+  ixColorMagenta5: #ffe6eb;
+  ixColorMagentaAA: #b11c54;
+}
+
+:export {
+  ixColorPurple90: #380337;
+  ixColorPurple80: #560f55;
+  ixColorPurple70: #6a2569;
+  ixColorPurple60: #7c377b;
+  ixColorPurple50: #8e4b8d;
+  ixColorPurple40: #9f5e9e;
+  ixColorPurple30: #be88bd;
+  ixColorPurple20: #dab6da;
+  ixColorPurple10: #e7cde7;
+  ixColorPurple5: #f4e6f3;
+  ixColorPurpleAA: #6a2569;
+}
+
+:export {
+  ixColorGreenDark90: #004a11;
+  ixColorGreenDark80: #006c20;
+  ixColorGreenDark70: #008731;
+  ixColorGreenDark60: #009c44;
+  ixColorGreenDark50: #11aa58;
+  ixColorGreenDark40: #3abb69;
+  ixColorGreenDark30: #64cb7f;
+  ixColorGreenDark20: #8fdb9b;
+  ixColorGreenDark10: #bae9bd;
+  ixColorGreenDark5: #e7f8e6;
+  ixColorGreenDarkAA: #008731;
+}
+
+:export {
+  ixColorGreenLight90: #3b5b34;
+  ixColorGreenLight80: #4a6f41;
+  ixColorGreenLight70: #598250;
+  ixColorGreenLight60: #68945f;
+  ixColorGreenLight50: #79a66f;
+  ixColorGreenLight40: #89b77f;
+  ixColorGreenLight30: #a2c99a;
+  ixColorGreenLight20: #bcdab6;
+  ixColorGreenLight10: #d7ead3;
+  ixColorGreenLight5: #f3f9f1;
+  ixColorGreenLightAA: #4a6f41;
+}
+
+:export {
+  ixColorAvocado90: #666900;
+  ixColorAvocado80: #7a7e05;
+  ixColorAvocado70: #8c900e;
+  ixColorAvocado60: #9ca018;
+  ixColorAvocado50: #aaae26;
+  ixColorAvocado40: #b5b935;
+  ixColorAvocado30: #cace5e;
+  ixColorAvocado20: #dddf89;
+  ixColorAvocado10: #edeeb7;
+  ixColorAvocado5: #fafbe8;
+  ixColorAvocadoAA: #666900;
+}
+
+:export {
+  ixColorBlueDark90: #00386b;
+  ixColorBlueDark80: #004c8b;
+  ixColorBlueDark70: #0a60a5;
+  ixColorBlueDark60: #1a73ba;
+  ixColorBlueDark50: #3889c9;
+  ixColorBlueDark40: #589ed6;
+  ixColorBlueDark30: #79b3e1;
+  ixColorBlueDark20: #9bc8ec;
+  ixColorBlueDark10: #bfddf4;
+  ixColorBlueDark5: #e6f1fb;
+  ixColorBlueDarkAA: #1a73ba;
+}
+
+:export {
+  ixColorBlueMid90: #004051;
+  ixColorBlueMid80: #016277;
+  ixColorBlueMid70: #0a8298;
+  ixColorBlueMid60: #16a1b6;
+  ixColorBlueMid50: #26bdcf;
+  ixColorBlueMid40: #48cddd;
+  ixColorBlueMid30: #6cdbe8;
+  ixColorBlueMid20: #93e7f2;
+  ixColorBlueMid10: #bbf2f9;
+  ixColorBlueMid5: #e6fbfd;
+  ixColorBlueMidAA: #0a8298;
+}
+
+:export {
+  ixColorBlueLight90: #346b72;
+  ixColorBlueLight80: #418087;
+  ixColorBlueLight70: #4f939b;
+  ixColorBlueLight60: #5fa6af;
+  ixColorBlueLight50: #6fb8c1;
+  ixColorBlueLight40: #80c9d2;
+  ixColorBlueLight30: #98d6df;
+  ixColorBlueLight20: #b2e2ea;
+  ixColorBlueLight10: #cdeef3;
+  ixColorBlueLight5: #eaf8fb;
+  ixColorBlueLightAA: #418087;
+}
+
+:export {
+  ixColorBrown90: #5e3e2a;
+  ixColorBrown80: #7e5b45;
+  ixColorBrown70: #9e785f;
+  ixColorBrown60: #b98e71;
+  ixColorBrown50: #d5a483;
+  ixColorBrown40: #f0ba95;
+  ixColorBrown30: #f7cdaf;
+  ixColorBrown20: #fee0c9;
+  ixColorBrown10: #ffebdb;
+  ixColorBrown5: #fff5ed;
+  ixColorBrownAA: #5e3e2a;
+}
+
+:export {
+  ixColorGreyAA: #212223;
+}
+
+:export {
+  ixFontWeight400: 400;
+  ixFontWeight700: 700;
+  ixFontWeight600: 600;
+  ixLetterSpacing400: normal;
+  ixLetterSpacing700: -0.05em;
+  ixLetterSpacing600: -0.05em;
+  ixFontSizeXL: 1.25rem;
+  ixFontSizeL: 1.125rem;
+  ixFontSizeM: 1rem;
+  ixFontSizeS: 0.875rem;
+  ixFontSizeXS: 0.75rem;
+  ixTypeColorLight: #ffffff;
+  ixTypeColorDark: #212223;
+  ixTypeColorMuted: 0.7;
+  ixBodyTextColor: #212223;
+}
+
+:root {
+  font-size: 100%;
+  /* 16px is the default on most browsers */
+}
+
+body {
+  color: #212223;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+article[ix-styles~=card] {
+  border: 1px solid #808285;
+  border-radius: 5px;
+  width: 25em;
+}
+article[ix-styles~=card] header[ix-styles~=card-banner] {
+  padding: 0.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+[ix-styles~=tags] {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0;
+  margin: 0;
+}
+[ix-styles~=tags] > li {
+  background-color: #e9e9ea;
+  text-align: center;
+  color: #212223;
+  margin-left: var(--ixSpaceMarginXXS, 0.25rem);
+  margin-right: var(--ixSpaceMarginXXS, 0.25rem);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0.25em 0.5em;
+  list-style: none;
+  border-radius: 3px;
+}
+[ix-styles~=tags] > li:first-of-type {
+  margin-left: 0;
+}
+[ix-styles~=tags] > li > a {
+  text-decoration: none;
+  border: none;
+  color: inherit;
+  display: inline-block;
+  margin: -0.25em -0.5em;
+  padding: 0.25em 0.5em;
+  border-radius: 3px;
+}
+[ix-styles~=tags] > li > a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 2rem;
+  line-height: calc(36 / 32);
+  /* line height in px divided by font-size */
+  margin: 1.5em 0 0.5em;
+}
+
+h2 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 1.825rem;
+  line-height: calc(32 / 29.2);
+  margin: 1.5em 0 0.5em;
+}
+
+h3 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 1.65rem;
+  line-height: calc(30 / 26.4);
+  margin: 1.5em 0 0.5em;
+}
+
+h4 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 1.475rem;
+  line-height: calc(28 / 23.6);
+  margin: 1.5em 0 0.5em;
+}
+
+h5 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 1.3rem;
+  line-height: calc(24 / 20.8);
+  margin: 1.5em 0 0.5em;
+}
+
+h6 {
+  color: #212223;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-size: 1.125rem;
+  line-height: calc(20 / 18);
+  text-transform: uppercase;
+  margin: 1.5em 0 0.5em;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.controls-arrow {
+  color: #ef5ba1;
+}
+
+small {
+  opacity: 0.7;
+  font-size: 0.875rem;
+}
+
+strong {
+  color: #212223;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+a {
+  color: var(--secondary-color, #d92c81);
+  border-bottom: 0.1em solid var(--secondary-color, #d92c81);
+  text-decoration: none;
+  outline: none;
+}
+a:visited {
+  color: #414343;
+  border-bottom: 0.1em solid #414343;
+}
+a:hover {
+  color: var(--secondary-color-hover-state, #b8216f);
+  border-bottom: 0.1em solid var(--secondary-color-hover-state, #b8216f);
+}
+a:focus {
+  color: var(--secondary-color, #d92c81);
+  border-bottom: 0.1em dashed var(--secondary-color, #d92c81);
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+}
+a[ix-styles~=heading] {
+  color: inherit;
+  border: none;
+  text-decoration: none;
+}
+a[ix-styles~=heading]:visited {
+  color: #414343;
+  border-bottom: 0.1em solid #414343;
+}
+a[ix-styles~=heading]:hover {
+  color: var(--secondary-color-hover-state, #b8216f);
+  border-bottom: 0.1em solid var(--secondary-color-hover-state, #b8216f);
+}
+a[ix-styles~=heading]:focus {
+  color: var(--secondary-color, #d92c81);
+  border-bottom: 0.1em dashed var(--secondary-color, #d92c81);
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+}
+a[ix-styles~=image] {
+  border-bottom: none;
+  display: inline-block;
+}
+a[ix-styles~=secondary] {
+  color: var(--primary-color, #1a73ba);
+  border-bottom-color: var(--primary-color, #1a73ba);
+}
+a[ix-styles~=secondary]:hover {
+  color: var(--primary-color-hover-state, #0a60a5);
+  border-bottom-color: var(--primary-color-hover-state, #0a60a5);
+}
+a[ix-styles~=secondary]:focus {
+  border-color: var(--primary-color, #1a73ba);
+  box-shadow: 0 0 0 3px var(--primary-color-focus-state, #79b3e1);
+  color: var(--primary-color, #1a73ba);
+  border-bottom-color: var(--primary-color, #1a73ba);
+}
+a[ix-styles~=button] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+  line-height: 1.5;
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border: 1px solid var(--primary-color, #1a73ba);
+  outline-style: none;
+  cursor: pointer;
+}
+a[ix-styles~=button]:hover {
+  color: #ffffff;
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+}
+a[ix-styles~=button][ix-styles~=secondary] {
+  background-color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+a[ix-styles~=button][ix-styles~=secondary]:hover {
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+a[ix-styles~=button][ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #1a73ba);
+  border: none;
+}
+a[ix-styles~=button][ix-styles~=light]:hover, a[ix-styles~=button][ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #1a73ba);
+}
+a[ix-styles~=button][ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=light][ix-styles~=secondary] {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+  border: none;
+}
+a[ix-styles~=button][ix-styles~=light][ix-styles~=secondary]:hover, a[ix-styles~=button][ix-styles~=light][ix-styles~=secondary]:focus {
+  color: #ffffff;
+  background-color: var(--secondary-color, #d92c81);
+}
+a[ix-styles~=button][ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+a[ix-styles~=button]:disabled {
+  background-color: #9a9c9e;
+  color: #ffffff;
+  cursor: not-allowed;
+  border: 1px solid #9a9c9e;
+}
+a[ix-styles~=button]:focus {
+  border-color: var(--primary-color, #1a73ba);
+  box-shadow: 0 0 0 3px var(--primary-color-focus-state, #79b3e1);
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+  border-radius: 0.2em;
+}
+a[ix-styles~=button]:focus[ix-styles~=secondary] {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+a[ix-styles~=button][ix-styles~=outline] {
+  background-color: transparent;
+  color: var(--primary-color, #1a73ba);
+  border: 1px solid var(--primary-color, #1a73ba);
+}
+a[ix-styles~=button][ix-styles~=outline]:hover, a[ix-styles~=button][ix-styles~=outline]:focus {
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border-color: transparent;
+}
+a[ix-styles~=button][ix-styles~=outline]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=secondary] {
+  background-color: transparent;
+  color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=secondary]:hover, a[ix-styles~=button][ix-styles~=outline][ix-styles~=secondary]:focus {
+  background-color: var(--secondary-color, #d92c81);
+  color: #ffffff;
+  border-color: transparent;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #ffffff);
+  border: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:hover, a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #ffffff);
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:hover, a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:focus {
+  color: var(--primary-color, #1a73ba);
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:hover, a[ix-styles~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:focus {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+a[ix-styles~=button][ix-styles~=s] {
+  font-size: 0.75rem;
+}
+a[ix-styles~=button][ix-styles~=m] {
+  font-size: 0.875rem;
+}
+a[ix-styles~=button][ix-styles~=l] {
+  font-size: 1.125rem;
+}
+
+nav {
+  background-color: var(--primary-nav-color, #1a73ba);
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  line-height: 85px;
+}
+nav > a,
+nav > a:visited, nav::slotted(a) {
+  line-height: 1;
+  margin-left: 1em;
+  color: #ffffff;
+  text-decoration: none;
+}
+nav::slotted(ol), nav::slotted(ul), nav::slotted(nav > ol) {
+  list-style-type: none;
+  padding-left: 1em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+nav::slotted(ol) li, nav::slotted(ul) li, nav::slotted(nav > ol) li {
+  display: inline-block;
+  padding-right: 1em;
+}
+nav::slotted(ol) a,
+nav::slotted(ol) button, nav::slotted(ol)::slotted(a), nav::slotted(ul) a,
+nav::slotted(ul) button, nav::slotted(ul)::slotted(a), nav::slotted(nav > ol) a,
+nav::slotted(nav > ol) button, nav::slotted(nav > ol)::slotted(a) {
+  display: block;
+  line-height: 85px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0;
+}
+nav::slotted(ol) a:active,
+nav::slotted(ol) button:active, nav::slotted(ul) a:active,
+nav::slotted(ul) button:active, nav::slotted(nav > ol) a:active,
+nav::slotted(nav > ol) button:active {
+  border: none;
+  outline: none;
+}
+nav::slotted(ol) a:hover,
+nav::slotted(ol) button:hover,
+nav::slotted(ol) a:focus,
+nav::slotted(ol) button:focus, nav::slotted(ul) a:hover,
+nav::slotted(ul) button:hover,
+nav::slotted(ul) a:focus,
+nav::slotted(ul) button:focus, nav::slotted(nav > ol) a:hover,
+nav::slotted(nav > ol) button:hover,
+nav::slotted(nav > ol) a:focus,
+nav::slotted(nav > ol) button:focus {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset 0 -4px 0 -1px #ffffff;
+  color: #ffffff;
+}
+nav ol,
+nav ul,
+nav nav > ol {
+  list-style-type: none;
+  padding-left: 1em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+nav ol li,
+nav ul li,
+nav nav > ol li {
+  display: inline-block;
+  padding-right: 1em;
+}
+nav ol a,
+nav ol button,
+nav ul a,
+nav ul button,
+nav nav > ol a,
+nav nav > ol button {
+  display: block;
+  line-height: 85px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0;
+}
+nav ol a:active,
+nav ol button:active,
+nav ul a:active,
+nav ul button:active,
+nav nav > ol a:active,
+nav nav > ol button:active {
+  border: none;
+  outline: none;
+}
+nav ol a:hover,
+nav ol button:hover,
+nav ol a:focus,
+nav ol button:focus,
+nav ul a:hover,
+nav ul button:hover,
+nav ul a:focus,
+nav ul button:focus,
+nav nav > ol a:hover,
+nav nav > ol button:hover,
+nav nav > ol a:focus,
+nav nav > ol button:focus {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset 0 -4px 0 -1px #ffffff;
+  color: #ffffff;
+}
+nav::slotted(ol > li), nav::slotted(ul > li) {
+  display: inline-block;
+  padding-right: 1em;
+}
+nav::slotted(ol > li) > a,
+nav::slotted(ol > li) > button, nav::slotted(ul > li) > a,
+nav::slotted(ul > li) > button {
+  display: block;
+  line-height: 85px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0;
+}
+nav::slotted(ol > li) > a:active,
+nav::slotted(ol > li) > button:active, nav::slotted(ul > li) > a:active,
+nav::slotted(ul > li) > button:active {
+  border: none;
+  outline: none;
+}
+nav::slotted(ol > li) > a:hover,
+nav::slotted(ol > li) > button:hover,
+nav::slotted(ol > li) > a:focus,
+nav::slotted(ol > li) > button:focus, nav::slotted(ul > li) > a:hover,
+nav::slotted(ul > li) > button:hover,
+nav::slotted(ul > li) > a:focus,
+nav::slotted(ul > li) > button:focus {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset 0 -4px 0 -1px #ffffff;
+}
+nav > ol:last-child:not(:first-child),
+nav > ul:last-child:not(:first-child), nav::slotted(ol:last-child:not(:first-child)), nav::slotted(ul:last-child:not(:first-child)) {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+  line-height: 1.5;
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border: 1px solid var(--primary-color, #1a73ba);
+  outline-style: none;
+  cursor: pointer;
+}
+button:hover {
+  color: #ffffff;
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+}
+button[ix-styles~=secondary] {
+  background-color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+button[ix-styles~=secondary]:hover {
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+button[ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #1a73ba);
+  border: none;
+}
+button[ix-styles~=light]:hover, button[ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #1a73ba);
+}
+button[ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+button[ix-styles~=light][ix-styles~=secondary] {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+  border: none;
+}
+button[ix-styles~=light][ix-styles~=secondary]:hover, button[ix-styles~=light][ix-styles~=secondary]:focus {
+  color: #ffffff;
+  background-color: var(--secondary-color, #d92c81);
+}
+button[ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+button:disabled {
+  background-color: #9a9c9e;
+  color: #ffffff;
+  cursor: not-allowed;
+  border: 1px solid #9a9c9e;
+}
+button:focus {
+  border-color: var(--primary-color, #1a73ba);
+  box-shadow: 0 0 0 3px var(--primary-color-focus-state, #79b3e1);
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+  border-radius: 0.2em;
+}
+button:focus[ix-styles~=secondary] {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+button[ix-styles~=outline] {
+  background-color: transparent;
+  color: var(--primary-color, #1a73ba);
+  border: 1px solid var(--primary-color, #1a73ba);
+}
+button[ix-styles~=outline]:hover, button[ix-styles~=outline]:focus {
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border-color: transparent;
+}
+button[ix-styles~=outline]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+button[ix-styles~=outline][ix-styles~=secondary] {
+  background-color: transparent;
+  color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+button[ix-styles~=outline][ix-styles~=secondary]:hover, button[ix-styles~=outline][ix-styles~=secondary]:focus {
+  background-color: var(--secondary-color, #d92c81);
+  color: #ffffff;
+  border-color: transparent;
+}
+button[ix-styles~=outline][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+button[ix-styles~=outline][ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #ffffff);
+  border: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+button[ix-styles~=outline][ix-styles~=light]:hover, button[ix-styles~=outline][ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #ffffff);
+}
+button[ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+button[ix-styles~=outline][ix-styles~=light]:hover, button[ix-styles~=outline][ix-styles~=light]:focus {
+  color: var(--primary-color, #1a73ba);
+}
+button[ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:hover, button[ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:focus {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+}
+button[ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+button[ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+button[ix-styles~=s] {
+  font-size: 0.75rem;
+}
+button[ix-styles~=m] {
+  font-size: 0.875rem;
+}
+button[ix-styles~=l] {
+  font-size: 1.125rem;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+label + span {
+  display: block;
+  font-size: 0.875rem;
+  margin: 0.25rem 0;
+}
+label[ix-styles~=s] {
+  font-size: 0.875rem;
+}
+label[ix-styles~=s] + span {
+  font-size: 0.75rem;
+}
+label[ix-styles~=m] {
+  font-size: 1rem;
+}
+label[ix-styles~=m] + span {
+  font-size: 0.875rem;
+}
+label[ix-styles~=l] {
+  font-size: 1.25rem;
+}
+label[ix-styles~=l] + span {
+  font-size: 1rem;
+}
+
+input {
+  border: #bdbec0 1px solid;
+  background-color: #ffffff;
+  border-radius: 0.2em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 0.5em 0.75em;
+  outline: none;
+  color: #212223;
+}
+input::placeholder {
+  color: #bdbec0;
+}
+input:focus {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  outline: 1px solid var(--secondary-color, #d92c81);
+  outline-offset: -2px;
+}
+input:disabled {
+  background-color: #e9e9ea;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+input[ix-styles~=invalid] {
+  border-color: #da221e;
+}
+input + span[ix-styles=error-message] {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding-left: 1.5em;
+  font-size: 0.75rem;
+  color: #da221e;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='14' height='14'><path fill='none' d='M0 0h24v24H0z'/><path d='M12.866 3l9.526 16.5a1 1 0 0 1-.866 1.5H2.474a1 1 0 0 1-.866-1.5L11.134 3a1 1 0 0 1 1.732 0zM11 16v2h2v-2h-2zm0-7v5h2V9h-2z' fill='rgba(218,34,30,1)'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 0.5%;
+  background-position-y: 50%;
+}
+input[ix-styles=s] {
+  font-size: 0.75rem;
+}
+input[ix-styles=m] {
+  font-size: 0.875rem;
+}
+input[ix-styles=l] {
+  font-size: 1.125rem;
+}
+input[type~=button], input[type~=submit], input[type~=reset] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 0.2em;
+  padding: 0.5em 1em;
+  transition: all 0.2s ease-in-out;
+  line-height: 1.5;
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border: 1px solid var(--primary-color, #1a73ba);
+  outline-style: none;
+  cursor: pointer;
+}
+input[type~=button]:hover, input[type~=submit]:hover, input[type~=reset]:hover {
+  color: #ffffff;
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+}
+input[type~=button][ix-styles~=secondary], input[type~=submit][ix-styles~=secondary], input[type~=reset][ix-styles~=secondary] {
+  background-color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+input[type~=button][ix-styles~=secondary]:hover, input[type~=submit][ix-styles~=secondary]:hover, input[type~=reset][ix-styles~=secondary]:hover {
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+input[type~=button][ix-styles~=light], input[type~=submit][ix-styles~=light], input[type~=reset][ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #1a73ba);
+  border: none;
+}
+input[type~=button][ix-styles~=light]:hover, input[type~=button][ix-styles~=light]:focus, input[type~=submit][ix-styles~=light]:hover, input[type~=submit][ix-styles~=light]:focus, input[type~=reset][ix-styles~=light]:hover, input[type~=reset][ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #1a73ba);
+}
+input[type~=button][ix-styles~=light]:disabled, input[type~=submit][ix-styles~=light]:disabled, input[type~=reset][ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=light][ix-styles~=secondary], input[type~=submit][ix-styles~=light][ix-styles~=secondary], input[type~=reset][ix-styles~=light][ix-styles~=secondary] {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+  border: none;
+}
+input[type~=button][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=button][ix-styles~=light][ix-styles~=secondary]:focus, input[type~=submit][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=submit][ix-styles~=light][ix-styles~=secondary]:focus, input[type~=reset][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=reset][ix-styles~=light][ix-styles~=secondary]:focus {
+  color: #ffffff;
+  background-color: var(--secondary-color, #d92c81);
+}
+input[type~=button][ix-styles~=light][ix-styles~=secondary]:disabled, input[type~=submit][ix-styles~=light][ix-styles~=secondary]:disabled, input[type~=reset][ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+input[type~=button]:disabled, input[type~=submit]:disabled, input[type~=reset]:disabled {
+  background-color: #9a9c9e;
+  color: #ffffff;
+  cursor: not-allowed;
+  border: 1px solid #9a9c9e;
+}
+input[type~=button]:focus, input[type~=submit]:focus, input[type~=reset]:focus {
+  border-color: var(--primary-color, #1a73ba);
+  box-shadow: 0 0 0 3px var(--primary-color-focus-state, #79b3e1);
+  background-color: var(--primary-color-hover-state, #0a60a5);
+  border-color: var(--primary-color-hover-state, #0a60a5);
+  border-radius: 0.2em;
+}
+input[type~=button]:focus[ix-styles~=secondary], input[type~=submit]:focus[ix-styles~=secondary], input[type~=reset]:focus[ix-styles~=secondary] {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  background-color: var(--secondary-color-hover-state, #b8216f);
+  border-color: var(--secondary-color-hover-state, #b8216f);
+}
+input[type~=button][ix-styles~=outline], input[type~=submit][ix-styles~=outline], input[type~=reset][ix-styles~=outline] {
+  background-color: transparent;
+  color: var(--primary-color, #1a73ba);
+  border: 1px solid var(--primary-color, #1a73ba);
+}
+input[type~=button][ix-styles~=outline]:hover, input[type~=button][ix-styles~=outline]:focus, input[type~=submit][ix-styles~=outline]:hover, input[type~=submit][ix-styles~=outline]:focus, input[type~=reset][ix-styles~=outline]:hover, input[type~=reset][ix-styles~=outline]:focus {
+  background-color: var(--primary-color, #1a73ba);
+  color: #ffffff;
+  border-color: transparent;
+}
+input[type~=button][ix-styles~=outline]:disabled, input[type~=submit][ix-styles~=outline]:disabled, input[type~=reset][ix-styles~=outline]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=secondary], input[type~=submit][ix-styles~=outline][ix-styles~=secondary], input[type~=reset][ix-styles~=outline][ix-styles~=secondary] {
+  background-color: transparent;
+  color: var(--secondary-color, #d92c81);
+  border: 1px solid var(--secondary-color, #d92c81);
+}
+input[type~=button][ix-styles~=outline][ix-styles~=secondary]:hover, input[type~=button][ix-styles~=outline][ix-styles~=secondary]:focus, input[type~=submit][ix-styles~=outline][ix-styles~=secondary]:hover, input[type~=submit][ix-styles~=outline][ix-styles~=secondary]:focus, input[type~=reset][ix-styles~=outline][ix-styles~=secondary]:hover, input[type~=reset][ix-styles~=outline][ix-styles~=secondary]:focus {
+  background-color: var(--secondary-color, #d92c81);
+  color: #ffffff;
+  border-color: transparent;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=secondary]:disabled, input[type~=submit][ix-styles~=outline][ix-styles~=secondary]:disabled, input[type~=reset][ix-styles~=outline][ix-styles~=secondary]:disabled {
+  color: #808285;
+  border: 1px dashed #616364;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light], input[type~=submit][ix-styles~=outline][ix-styles~=light], input[type~=reset][ix-styles~=outline][ix-styles~=light] {
+  background-color: #ffffff;
+  color: var(--primary-color, #ffffff);
+  border: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light]:hover, input[type~=button][ix-styles~=outline][ix-styles~=light]:focus, input[type~=submit][ix-styles~=outline][ix-styles~=light]:hover, input[type~=submit][ix-styles~=outline][ix-styles~=light]:focus, input[type~=reset][ix-styles~=outline][ix-styles~=light]:hover, input[type~=reset][ix-styles~=outline][ix-styles~=light]:focus {
+  color: #ffffff;
+  background-color: var(--primary-color, #ffffff);
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light]:disabled, input[type~=submit][ix-styles~=outline][ix-styles~=light]:disabled, input[type~=reset][ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #808285;
+  border: none;
+  background-color: #ffffff;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light]:hover, input[type~=button][ix-styles~=outline][ix-styles~=light]:focus, input[type~=submit][ix-styles~=outline][ix-styles~=light]:hover, input[type~=submit][ix-styles~=outline][ix-styles~=light]:focus, input[type~=reset][ix-styles~=outline][ix-styles~=light]:hover, input[type~=reset][ix-styles~=outline][ix-styles~=light]:focus {
+  color: var(--primary-color, #1a73ba);
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:focus, input[type~=submit][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=submit][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:focus, input[type~=reset][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:hover, input[type~=reset][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:focus {
+  background-color: #ffffff;
+  color: var(--secondary-color, #d92c81);
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:disabled, input[type~=submit][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:disabled, input[type~=reset][ix-styles~=outline][ix-styles~=light][ix-styles~=secondary]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=outline][ix-styles~=light]:disabled, input[type~=submit][ix-styles~=outline][ix-styles~=light]:disabled, input[type~=reset][ix-styles~=outline][ix-styles~=light]:disabled {
+  color: #e1e2e3;
+  border: 1px dashed #ffffff;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+input[type~=button][ix-styles~=s], input[type~=submit][ix-styles~=s], input[type~=reset][ix-styles~=s] {
+  font-size: 0.75rem;
+}
+input[type~=button][ix-styles~=m], input[type~=submit][ix-styles~=m], input[type~=reset][ix-styles~=m] {
+  font-size: 0.875rem;
+}
+input[type~=button][ix-styles~=l], input[type~=submit][ix-styles~=l], input[type~=reset][ix-styles~=l] {
+  font-size: 1.125rem;
+}
+span[ix-styles~=input] {
+  display: inline-block;
+  font-size: 0.875rem;
+  padding: 0.5em 0;
+  border: 1px #bdbec0 solid;
+  border-radius: 0.2em;
+  line-height: 1.5;
+  color: #808285;
+  background-color: #ffffff;
+}
+span[ix-styles~=input][ix-styles~=invalid] {
+  border-color: #da221e;
+}
+span[ix-styles~=input] > span,
+span[ix-styles~=input] ::slotted(span) {
+  color: #616364;
+  display: inline-block;
+}
+span[ix-styles~=input] > span i,
+span[ix-styles~=input] ::slotted(span) i {
+  vertical-align: text-top;
+}
+span[ix-styles~=input] > span:first-child, span[ix-styles~=input] ::slotted(span:first-child) {
+  padding: 0;
+  padding-left: 0.75em;
+}
+span[ix-styles~=input] > span:last-child, span[ix-styles~=input] ::slotted(span:last-child) {
+  padding: 0;
+  padding-right: 0.75em;
+}
+span[ix-styles~=input]:focus-within {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  outline: 1px solid var(--secondary-color, #d92c81);
+  outline-offset: -2px;
+}
+span[ix-styles~=input] > input {
+  color: #212223;
+  font-size: inherit;
+  display: inline-block;
+  border: none;
+  line-height: 1.5;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+span[ix-styles~=input] > input:focus {
+  box-shadow: none;
+  outline: none;
+}
+span[ix-styles~=input][ix-styles~=s] {
+  font-size: 0.75rem;
+}
+span[ix-styles~=input][ix-styles~=m] {
+  font-size: 0.875rem;
+}
+span[ix-styles~=input][ix-styles~=l] {
+  font-size: 1.125rem;
+}
+span[ix-styles~=input][ix-styles~=disabled], span[ix-styles~=input][ix-styles~=disabled] > input {
+  background-color: #f0f1f1;
+  cursor: not-allowed;
+}
+
+input[type=checkbox] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+input[type=checkbox] + label:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 1em;
+  padding: 0.175em;
+  margin-right: 0.75em;
+  background-clip: border-box;
+  border: 1px solid #bdbec0;
+  background-color: "none";
+  cursor: pointer;
+}
+input[type=checkbox] + label:after {
+  position: absolute;
+}
+input[type=checkbox]:hover + label:before {
+  border: 2px solid var(--secondary-color, #d92c81);
+}
+input[type=checkbox]:checked + label:before {
+  background-color: var(--secondary-color, #d92c81);
+  border-color: var(--secondary-color, #d92c81);
+  padding: 0;
+}
+input[type=checkbox]:checked + label:after {
+  content: "";
+  display: inline-block;
+  height: 0.4em;
+  width: 0.6em;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  color: #ffffff;
+  transform: rotate(-45deg);
+  left: 0.2em;
+  top: 0.5em;
+}
+input[type=checkbox]:disabled + label:before {
+  background-color: "none";
+  border: 1px dashed #bdbec0;
+  cursor: not-allowed;
+}
+input[type=checkbox]:disabled:checked + label:before {
+  background-color: #bdbec0;
+  border-style: solid;
+}
+input[type=checkbox]:focus + label:before {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  border-width: 2px;
+}
+input[type=checkbox] + label {
+  padding-left: 1.5em;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  position: relative;
+  color: #212223;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+input[type=checkbox]:disabled + label {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+input[type=checkbox][ix-styles~=inline] + label {
+  display: inline-flex;
+  padding-right: 3em;
+}
+input[type=checkbox][ix-styles~=s] + label {
+  font-size: 0.875rem;
+}
+input[type=checkbox][ix-styles~=l] + label {
+  font-size: 1.125rem;
+}
+
+input[type=radio] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+input[type=radio] + label:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 1em;
+  padding: 0.175em;
+  margin-right: 0.75em;
+  background-clip: content-box;
+  border: 1px solid #bdbec0;
+  background-color: "none";
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type=radio]:checked + label:before {
+  background-color: var(--secondary-color, #d92c81);
+}
+input[type=radio]:hover + label:before {
+  border: 2px solid var(--secondary-color, #d92c81);
+  padding: 0.15em;
+}
+input[type=radio]:disabled + label:before {
+  background-color: "none";
+  border: 1px dashed #bdbec0;
+  cursor: not-allowed;
+}
+input[type=radio]:disabled:checked + label:before {
+  background-color: #bdbec0;
+}
+input[type=radio]:focus + label:before {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  border-width: 2px;
+  padding: 0.15em;
+}
+input[type=radio] + label {
+  padding-left: 1.5em;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  position: relative;
+  color: #212223;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+input[type=radio]:disabled + label {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+input[type=radio][ix-styles~=inline] + label {
+  display: inline-flex;
+  padding-right: 3em;
+}
+input[type=radio][ix-styles~=s] + label {
+  font-size: 0.875rem;
+}
+input[type=radio][ix-styles~=l] + label {
+  font-size: 1.125rem;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: 0.875rem;
+  border-color: #bdbec0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.2em;
+  outline: none;
+  line-height: 1.5;
+  padding: 0.5em 0.75em;
+  color: #212223;
+}
+textarea::placeholder {
+  color: #bdbec0;
+}
+textarea:focus {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  outline: 1px solid var(--secondary-color, #d92c81);
+  outline-offset: -2px;
+}
+textarea:disabled {
+  background-color: #e9e9ea;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+textarea[ix-styles=s] {
+  font-size: 0.75rem;
+}
+textarea[ix-styles=m] {
+  font-size: 0.875rem;
+}
+textarea[ix-styles=l] {
+  font-size: 1.125rem;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l4 4 4-4z'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  border-color: #bdbec0;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.2em;
+  line-height: 1.5;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  padding: 0.5em 1.5em 0.5em 0.75em;
+  color: #212223;
+}
+select:focus {
+  border-color: var(--secondary-color, #d92c81);
+  box-shadow: 0 0 0 3px var(--secondary-color-focus-state, #ffa4cf);
+  outline: 1px solid var(--secondary-color, #d92c81);
+  outline-offset: -2px;
+}
+select:disabled {
+  background-color: #e9e9ea;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+select[ix-styles=s] {
+  font-size: 0.75rem;
+}
+select[ix-styles=m] {
+  font-size: 0.875rem;
+}
+select[ix-styles=l] {
+  font-size: 1.125rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--button-color, #bdbec0);
+}
+hr[ix-styles~=vertical] {
+  display: inline-flex;
+  width: 1px;
+  height: 100%;
+  margin: 0 10px;
+}
+
+code {
+  font-family: "Fira Code", monospace;
+  background-color: #f0f1f1;
+  color: #212223;
+}
+
+pre {
+  font-family: "Fira Code", monospace;
+  background-color: #f0f1f1;
+  color: #212223;
+  white-space: pre-wrap;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=ixstyle.css.map */
