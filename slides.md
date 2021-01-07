@@ -22,7 +22,6 @@ So the Australian beach collaborated with TechOps to produce one. And [we called
 
 # Accessibility as a core principle
 
-
 Accessibility ("a11y" for short) means that content and tools can be used by all people who need them, regardless of the technologies they use for interaction.
 
 ---
@@ -45,4 +44,4 @@ Note: Hannah to talk about thinking differently
 
 And so it builds in sustainability
 
-(Last Monday was Blue Beanie day)
+~~(Last Monday was Blue Beanie day)~~
